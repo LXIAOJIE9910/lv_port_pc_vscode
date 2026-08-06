@@ -1,0 +1,38 @@
+{
+  "home": {
+    "title": "My Apps",
+    "bg_color": "#1a1a2e",
+    "bg_grad_color": "#16213e"
+  },
+  "apps": [
+    {
+      "name": "Music",
+      "symbol": "AUDIO",
+      "color": "#ff6b6b",
+      "type": "builtin",
+      "entry": "music"
+    },
+    {
+      "name": "Widgets",
+      "symbol": "LIST",
+      "color": "#a666f1",
+      "type": "builtin",
+      "entry": "widgets"
+    },
+    {
+      "name": "Settings",
+      "symbol": "SETTINGS",
+      "color": "#4cd964",
+      "type": "json",
+      "ui_file": "A:settings_ui.json"
+    },
+    {
+      "name": "WiFi",
+      "symbol": "WIFI",
+      "color": "#00d2d3",
+      "type": "json",
+      "ui_file": "A:wifi_ui.json"
+    }
+  ]
+}
+

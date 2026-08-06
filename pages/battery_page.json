@@ -1,0 +1,34 @@
+{
+  "title": "Battery",
+  "bg_color": "#1a1a2e",
+  "controls": [
+    {
+      "id": "lbl_level",
+      "type": "label",
+      "text": "Level: 85%",
+      "x": 80,
+      "y": 80
+    },
+    {
+      "id": "lbl_status",
+      "type": "label",
+      "text": "Status: Discharging",
+      "x": 80,
+      "y": 115
+    },
+    {
+      "id": "lbl_temp",
+      "type": "label",
+      "text": "Temp: 32C",
+      "x": 80,
+      "y": 150
+    },
+    {
+      "id": "lbl_health",
+      "type": "label",
+      "text": "Health: Good",
+      "x": 80,
+      "y": 185
+    }
+  ]
+}

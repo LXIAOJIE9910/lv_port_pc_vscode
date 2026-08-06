@@ -1,0 +1,45 @@
+{
+  "title": "WiFi",
+  "bg_color": "#1a1a2e",
+  "controls": [
+    {
+      "id": "lbl_status",
+      "type": "label",
+      "text": "WiFi Status",
+      "x": 20,
+      "y": 60
+    },
+    {
+      "id": "sw_wifi",
+      "type": "switch",
+      "x": 20,
+      "y": 100,
+      "on_change": "toggle_wifi"
+    },
+    {
+      "id": "lbl_power",
+      "type": "label",
+      "text": "Enable WiFi",
+      "x": 90,
+      "y": 108
+    },
+    {
+      "id": "lbl_signal",
+      "type": "label",
+      "text": "Signal Strength",
+      "x": 20,
+      "y": 150
+    },
+    {
+      "id": "slider_signal",
+      "type": "slider",
+      "x": 20,
+      "y": 180,
+      "w": 200,
+      "range_min": 0,
+      "range_max": 100,
+      "value": 80,
+      "on_change": "set_signal"
+    }
+  ]
+}

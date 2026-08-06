@@ -1,0 +1,41 @@
+{
+  "title": "Bluetooth",
+  "bg_color": "#1a1a2e",
+  "controls": [
+    {
+      "id": "sw_bt",
+      "type": "switch",
+      "x": 80,
+      "y": 80,
+      "on_change": "toggle_bluetooth"
+    },
+    {
+      "id": "lbl_enable",
+      "type": "label",
+      "text": "Enable",
+      "x": 150,
+      "y": 88
+    },
+    {
+      "id": "lbl_devices_title",
+      "type": "label",
+      "text": "Paired Devices",
+      "x": 80,
+      "y": 140
+    },
+    {
+      "id": "lbl_dev1",
+      "type": "label",
+      "text": "Device A",
+      "x": 80,
+      "y": 175
+    },
+    {
+      "id": "lbl_dev2",
+      "type": "label",
+      "text": "Device B",
+      "x": 80,
+      "y": 205
+    }
+  ]
+}

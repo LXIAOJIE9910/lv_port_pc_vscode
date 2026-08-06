@@ -1,0 +1,42 @@
+{
+  "title": "Settings",
+  "bg_color": "#1a1a2e",
+  "controls": [
+    {
+      "id": "item_bt",
+      "type": "list_item",
+      "text": "Bluetooth",
+      "symbol": "BLUETOOTH",
+      "x": 120,
+      "y": 70,
+      "on_click": "open_page:bt_page"
+    },
+    {
+      "id": "item_brightness",
+      "type": "list_item",
+      "text": "Brightness",
+      "symbol": "IMAGE",
+      "x": 120,
+      "y": 130,
+      "on_click": "open_page:brightness_page"
+    },
+    {
+      "id": "item_battery",
+      "type": "list_item",
+      "text": "Battery",
+      "symbol": "BATTERY",
+      "x": 120,
+      "y": 190,
+      "on_click": "open_page:battery_page"
+    },
+    {
+      "id": "item_hotspot",
+      "type": "list_item",
+      "text": "Hotspot",
+      "symbol": "WIFI",
+      "x": 120,
+      "y": 250,
+      "on_click": "open_page:hotspot_page"
+    }
+  ]
+}

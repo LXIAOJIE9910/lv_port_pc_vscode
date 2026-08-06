@@ -1,0 +1,37 @@
+{
+  "title": "Brightness",
+  "bg_color": "#1a1a2e",
+  "controls": [
+    {
+      "id": "lbl_bright",
+      "type": "label",
+      "text": "Display Brightness",
+      "x": 80,
+      "y": 80
+    },
+    {
+      "id": "slider_bright",
+      "type": "slider",
+      "x": 80,
+      "y": 120,
+      "w": 240,
+      "range_min": 0,
+      "range_max": 100,
+      "value": 70,
+      "on_change": "set_brightness"
+    },
+    {
+      "id": "lbl_auto",
+      "type": "label",
+      "text": "Auto",
+      "x": 80,
+      "y": 170
+    },
+    {
+      "id": "sw_auto",
+      "type": "switch",
+      "x": 80,
+      "y": 200
+    }
+  ]
+}
